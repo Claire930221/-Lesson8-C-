@@ -28,7 +28,7 @@ void PrintArray(int[,] myArr)
         Console.WriteLine();
     }
 }
-//Функция сортировки массива пузырьковым методом
+
 int[,] SortArray(int[,] myArr)
 {
     int n = myArr.GetLength(0);
