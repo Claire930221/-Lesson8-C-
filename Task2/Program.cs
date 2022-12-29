@@ -32,7 +32,6 @@ int GetRowOfMinSum(int[,] myArr)
     int n = myArr.GetLength(0);
     int m = myArr.GetLength(1);
 
-    //берем начальное значение минимальной суммы
     int minSum = 0;
     int minIndex = 0;
     for (int j = 0; j < m; j++)
@@ -41,7 +40,6 @@ int GetRowOfMinSum(int[,] myArr)
     }
     Console.WriteLine($"Строка {1}, сумма элементов {minSum}");
 
-    // бежим по циклу
     for (int i = 1; i < n; i++)
     {
         int sum = 0;
